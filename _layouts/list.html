@@ -2,11 +2,19 @@
 layout: default
 ---
 
+{% if page.username %}
+    {% assign companies = site.data.users[page.username].companies %}
+{% else %}
+    {% assign companies = site.data.companies.all %}
+{% endif %}
+
+
+
 <div class="list">
     <ul>
-        {% for company in site.data.companies.all %}
+        {% for company in companies %}
         <li>
-            <a class="company" href="{{ site.data.companies[company].link }}">
+            <a class="company" href="{% if page.username %}/{{ page.username }}{% endif %}{{ site.data.companies[company].link }}">
                 <div class="company__logo">
                     (L)
                 </div>
