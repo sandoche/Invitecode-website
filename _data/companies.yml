@@ -7,8 +7,10 @@ airbnb:
   title: Get up to $40 in travel credits
   color: '#000000'
   guide: Hello world
+  link: /airbnb
 uber:
   name: Uber
-  description: Get a free ride
+  title: Get a free ride
   color: '#000000'
   guide: Hello world
+  link: /uber

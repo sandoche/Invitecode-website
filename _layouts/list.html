@@ -4,19 +4,21 @@ layout: default
 
 <div class="list">
     <ul>
+        {% for company in site.data.companies.all %}
         <li>
-            <a class="company" href="#">
+            <a class="company" href="{{ site.data.companies[company].link }}">
                 <div class="company__logo">
-                    U
+                    (L)
                 </div>
                 <div class="company__info">
-                    <h2>Uber promo code</h2>
-                    <p>Description</p>
+                    <h2>{{ site.data.companies[company].name }}</h2>
+                    <p>{{ site.data.companies[company].title }}</p>
                 </div>
                 <div class="company__action">
                     ›
                 </div>
             </a>
-        </div>
+        </li>
+        {% endfor %}
     </ul>
 </div>

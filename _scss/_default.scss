@@ -83,6 +83,7 @@ a {
 .list {
 
   margin-top: 16px;
+  border-bottom: 1px solid $border-color;
 
   ul {
     list-style-type: none;
@@ -96,7 +97,7 @@ a {
   grid-template-columns: 40px 1fr 10px;
   padding: 16px;
   background: #fff;
-  border: 1px solid $border-color;
+  border-top: 1px solid $border-color;
   align-items: center;
 
   h2 {
