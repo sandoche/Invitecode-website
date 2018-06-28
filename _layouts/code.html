@@ -3,5 +3,10 @@ layout: default
 ---
 
 <div class="code">
-    Code
+    {{ site.data.users[page.username].codes[page.company] }} -
+    {{ site.data.users[page.username].url[page.company] }} -
+    {{ site.data.companies[page.company].name }} - 
+    {{ site.data.companies[page.company].title }} - 
+    {{ site.data.companies[page.company].color }} -
+    {{ site.data.companies[page.company].guide }}
 </div>
