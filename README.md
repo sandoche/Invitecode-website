@@ -5,7 +5,7 @@
 * Read more on the documentation of Jekyll Webpack Boilerplate: https://github.com/sandoche/Jekyll-webpack-boilerplate
 
 ## Todo
-- [ ] Define the templates
+- [x] Define the templates
 - [ ] Implement the templates
 - [ ] Create all the views
 - [ ] Populate with content
