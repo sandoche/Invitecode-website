@@ -3,14 +3,20 @@ users:
   - farbod
 
 sandoche:
+  url:
+    uber: https://www.uber.com/invite/farbods2
+    airbnb: http://abnb.me/e/jrDZvKNgdF  
   codes:
-    uber: santest
-    airbnb: testairbnb
+    uber: farbods2
+    airbnb: jrDZvKNgdF
   companies:
     - uber
     - airbnb
 
 farbod:
+  url:
+    uber: https://www.uber.com/invite/farbods2
+    airbnb: http://abnb.me/e/jrDZvKNgdF  
   codes:
     uber: farbods2
     airbnb: jrDZvKNgdF
