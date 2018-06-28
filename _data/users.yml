@@ -1,0 +1,20 @@
+users:
+  - sandoche
+  - farbod
+
+sandoche:
+  codes:
+    uber: santest
+    airbnb: testairbnb
+  companies:
+    - uber
+    - airbnb
+
+farbod:
+  codes:
+    uber: farbods2
+    airbnb: jrDZvKNgdF
+  companies:
+    - uber
+    - airbnb
+

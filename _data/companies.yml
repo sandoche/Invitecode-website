@@ -1,0 +1,13 @@
+all:
+  - uber
+  - airbnb
+
+airbnb:
+  - url: http://abnb.me/e/
+    name: Airbnb
+    description: Get up to $40 in travel credits
+    color: '#000000'
+  - url: http://abnb.me/e/
+    name: Airbnb
+    description: Get a free ride
+    color: '#000000'
