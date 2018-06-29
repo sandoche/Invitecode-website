@@ -97,7 +97,8 @@ a {
 
 .company {
   display: grid;
-  grid-template-columns: 40px 1fr 10px;
+  grid-template-columns: 50px 1fr 10px;
+  grid-column-gap: 16px;
   padding: 16px;
   background: #fff;
   border-top: 1px solid $border-color;
@@ -111,6 +112,20 @@ a {
   p {
     margin: 0;
     font-size: 16px;
+  }
+
+  &__logo {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+  }
+
+  &__icon {
+    max-height: 25px;
+    max-width: 25px;
+    height: 100%;
   }
 }
 

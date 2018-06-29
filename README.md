@@ -17,6 +17,7 @@
 - [ ] Populate with content
 - [ ] Add share button
 - [ ] Make it responsive
+- [ ] Delete useless layouts
 - [ ] Add AMP
 - [ ] Add PWA
 - [ ] Create icon

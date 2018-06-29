@@ -15,15 +15,15 @@ layout: default
         {% for company in companies %}
         <li>
             <a class="company" href="{% if page.username %}/{{ page.username }}{% endif %}{{ site.data.companies[company].link }}">
-                <div class="company__logo">
-                    (L)
+                <div class="company__logo" style="background-color: {{ site.data.companies[company].color }}">
+                    <img src="/assets/images/icons/{{ site.data.companies[company].icon }}" alt="" class="company__icon">
                 </div>
                 <div class="company__info">
                     <h2>{{ site.data.companies[company].name }}</h2>
                     <p>{{ site.data.companies[company].title }}</p>
                 </div>
                 <div class="company__action">
-                    ›
+                    
                 </div>
             </a>
         </li>
