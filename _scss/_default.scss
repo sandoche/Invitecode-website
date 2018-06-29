@@ -60,8 +60,8 @@ a {
 
 .navigation {
   background-color: #fff;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: center;
   justify-content: center;
   align-items: center;
   padding: 16px;
