@@ -10,7 +10,7 @@ airbnb:
   link: /airbnb
 uber:
   name: Uber
-  title: Get a free ride with this promocode
+  title: Get a free ride with the promocode
   color: '#000000'
   guide: Hello world
   link: /uber

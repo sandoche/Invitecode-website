@@ -6,17 +6,32 @@ layout: default
     <h2 class="section__title">
         {{ site.data.strings.code.promo }} {{ site.data.companies[page.company].name }}
     </h2>
-    <section class="section section__content section__code">
-        {{ site.data.users[page.username].codes[page.company] }}
-    </section>
+
+    {% if page.username %}
+        <section class="section section__content section__code">
+            {{ site.data.users[page.username].codes[page.company] }}
+        </section>
+    {% else %}
+        {% for user in site.data.users.all %}
+            {% if site.data.users[user].codes[page.company] %}
+            <section class="section section__content section__code">
+                {{ site.data.users[user].codes[page.company] }}
+            </section>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+
+
+
     <section class="section section__content section__content--last">
         {{ site.data.companies[page.company].title }}
     </section>
 
+    {% if page.username %}
     <div class="text-center section__button">
         <a href="{{ site.data.users[page.username].url[page.company] }}" class="btn">{{ site.data.strings.code.call_to_action }}</a>
     </div>
-    
+    {% endif %}
 
     <h2 class="section__title">
         {{ site.data.strings.code.about }}

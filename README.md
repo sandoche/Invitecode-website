@@ -7,10 +7,12 @@
 ## Todo
 - [x] Define the templates
 - [ ] Implement the template all
-- [ ] Implement the template code all
+- [x] Implement the template code all
 - [ ] Implement the template user
 - [x] Implement the template code user
 - [ ] Implement navigation button
+- [ ] Implement colors with logos
+- [ ] Improve titles of navbar and of the page
 - [ ] Add library to copy
 - [ ] Populate with content
 - [ ] Add share button

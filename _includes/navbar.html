@@ -1,5 +1,9 @@
 <nav class="navigation">
     <div class="navigation__left"></div>
-    <h1 class="navigation__center">Invites codes {% if page.username %}of {{ page.username }}{% endif %}</h1>
+    <h1 class="navigation__center">
+        {% if page.company %}{{ site.data.companies[page.company].name }}{% endif %}
+        Invites codes 
+        {% if page.username %}of {{ page.username }}{% endif %}
+    </h1>
     <div class="navigation__right"></div>
 </nav>

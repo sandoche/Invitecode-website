@@ -1,13 +1,13 @@
-users:
+all:
   - sandoche
   - farbod
 
 sandoche:
   url:
-    uber: https://www.uber.com/invite/farbods2
+    uber: https://www.uber.com/invite/f416b
     airbnb: http://abnb.me/e/jrDZvKNgdF  
   codes:
-    uber: farbods2
+    uber: f416b
     airbnb: jrDZvKNgdF
   companies:
     - uber
