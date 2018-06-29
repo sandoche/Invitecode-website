@@ -3,7 +3,7 @@
 $container-width: 1200px;
 $container-padding: 30px;
 
-$primary-color: #C8385A;
+$primary-color: rgb(56, 159, 200);
 $text-color: #333;
 $link-color: #7F7F7F;
 $border-color: lighten($link-color, 40);
@@ -53,6 +53,9 @@ a {
   }
 }
 
+.text-center {
+  text-align: center;
+}
 
 
 .navigation {
@@ -109,6 +112,52 @@ a {
     margin: 0;
     font-size: 16px;
   }
+}
+
+.section {
+
+  padding: 16px;
+  background: #fff;
+  border-top: 1px solid $border-color;
+
+  &__title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $link-color;
+    font-weight: 400;
+    margin-left: 16px;
+    margin-top: 32px;
+  }
+
+  &__content--last {
+    border-bottom: 1px solid $border-color;
+    color: $link-color;
+  }
+
+  &__code {
+    color: $text-color;
+    font-size: 32px;
+    font-weight: 900;
+  }
+
+  &__button {
+    padding: 16px;
+  }
+}
+
+.btn {
+  background-color: $primary-color;
+  display: inline-block;
+  padding: 16px 0;
+  color: #fff !important;
+  text-align: center;
+  width: 100%;
+  border-bottom: 3px solid darken($primary-color, 5%);
+
+  &:hover {
+    background-color: darken($primary-color, 3%);
+  }
+
 }
 
 

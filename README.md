@@ -9,7 +9,9 @@
 - [ ] Implement the template all
 - [ ] Implement the template code all
 - [ ] Implement the template user
-- [ ] Implement the template code user
+- [x] Implement the template code user
+- [ ] Implement navigation button
+- [ ] Add library to copy
 - [ ] Populate with content
 - [ ] Add share button
 - [ ] Add AMP
