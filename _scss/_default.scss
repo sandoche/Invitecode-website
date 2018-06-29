@@ -7,6 +7,7 @@ $primary-color: rgb(56, 159, 200);
 $text-color: #333;
 $link-color: #7F7F7F;
 $border-color: lighten($link-color, 40);
+$navbar-link-color: rgb(56, 159, 200);
 
 $font-xl: 58px;
 $font-md: 22px;
@@ -69,7 +70,17 @@ a {
   border-bottom: 1px solid $border-color;
 
   &__right {
-    text-align: right;
+    text-align: right;   
+  }
+
+  a {
+    color: $navbar-link-color;
+    font-size: 16px !important;
+    font-weight: 700;
+
+    &:hover {
+      color: darken($navbar-link-color, 10%);
+    }
   }
 
   &__center {
