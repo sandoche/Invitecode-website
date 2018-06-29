@@ -11,13 +11,19 @@
 {% endif %}
 
 <script>
-if (navigator.share) {
-  navigator.share({
+var shareButton = document.getElementById("share-button");
+var sharePromoCode = function() {
+    navigator.share({
       title: 'Promo code',
       text: 'Check out my promocodes',
       url: '{{ site.url}}{{ page.url }}',
   })
     .then(() => console.log('Successful share'))
     .catch((error) => console.log('Error sharing', error));
+}
+
+if (navigator.share) {
+    shareButton.style.visibility = "visible";
+    shareButton.addEventListener('click', sharePromoCode);    
 }
 </script>
