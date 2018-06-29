@@ -1,5 +1,11 @@
 <nav class="navigation">
-    <div class="navigation__left"></div>
+    <div class="navigation__left">
+        {% if page.company and page.username %}
+            <a href="/{{ page.username }}">Back</a>
+        {% elsif page.company  %}
+            <a href="/">Back</a>
+        {% endif %}
+    </div>
     <h1 class="navigation__center">
         {% if page.company %}{{ site.data.companies[page.company].name }}{% endif %}
         Invites codes 

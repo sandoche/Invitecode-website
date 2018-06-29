@@ -10,13 +10,13 @@
 - [x] Implement the template code all
 - [x] Implement the template user
 - [x] Implement the template code user
-- [ ] Implement navigation button
-- [ ] Implement colors with logos
-- [ ] Improve titles of navbar and of the page
+- [x] Implement navigation button
+- [x] Implement colors with logos
+- [x] Improve titles of navbar and of the page
 - [ ] Add library to copy
-- [ ] Populate with content
 - [ ] Add share button
 - [ ] Make it responsive
+- [ ] Populate with content
 - [ ] Delete useless layouts
 - [ ] Add AMP
 - [ ] Add PWA
