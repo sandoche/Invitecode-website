@@ -6,8 +6,10 @@
 
 ## Todo
 - [x] Define the templates
-- [ ] Implement the templates
-- [ ] Create all the views
+- [ ] Implement the template all
+- [ ] Implement the template code all
+- [ ] Implement the template user
+- [ ] Implement the template code user
 - [ ] Populate with content
 - [ ] Add share button
 - [ ] Add AMP
