@@ -16,6 +16,7 @@
 - [ ] Add library to copy
 - [ ] Populate with content
 - [ ] Add share button
+- [ ] Make it responsive
 - [ ] Add AMP
 - [ ] Add PWA
 - [ ] Create icon
