@@ -7,7 +7,7 @@ $primary-color: rgb(56, 159, 200);
 $text-color: #333;
 $link-color: #7F7F7F;
 $border-color: lighten($link-color, 40);
-$navbar-link-color: rgb(56, 159, 200);
+$navbar-link-color:  #4691f6;
 
 $font-xl: 58px;
 $font-md: 22px;
@@ -58,6 +58,27 @@ a {
   text-align: center;
 }
 
+.svg-icon {
+  width: 1.5em;
+  height: 1.5em;
+
+  &--s {
+    width: 1.1em;
+    height: 1.1em;
+  }
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: $navbar-link-color;
+}
+
+.svg-icon circle {
+  stroke: $navbar-link-color;
+  stroke-width: 1;
+}
+
 
 .navigation {
   background-color: #fff;
@@ -73,10 +94,14 @@ a {
     text-align: right;   
   }
 
+  &__left a {
+    display: flex;
+  }
+
   a {
     color: $navbar-link-color;
     font-size: 16px !important;
-    font-weight: 700;
+    font-weight: 400;
 
     &:hover {
       color: darken($navbar-link-color, 10%);

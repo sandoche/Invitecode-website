@@ -9,3 +9,15 @@
 {% if site.cookie_consent == true %}
 {% include cookie-consent.html %}
 {% endif %}
+
+<script>
+if (navigator.share) {
+  navigator.share({
+      title: 'Promo code',
+      text: 'Check out my promocodes',
+      url: '{{ site.url}}{{ page.url }}',
+  })
+    .then(() => console.log('Successful share'))
+    .catch((error) => console.log('Error sharing', error));
+}
+</script>
