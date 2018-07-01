@@ -1,6 +1,7 @@
 all:
   - uber
   - airbnb
+  - lyft
 
 airbnb:
   name: Airbnb
@@ -16,3 +17,17 @@ uber:
   guide: Hello world
   link: /uber
   icon: uber.svg
+lyft:
+  name: Lyft
+  title: Get up to $20 free ride credit on Lyft
+  color: '#ea37ba'
+  guide: Hello world
+  link: /lyft
+  icon: lyft.svg
+transferwise:
+  name: TransferWise
+  title: get a free international transfer of up to €500
+  color: '#50b7f9'
+  guide: Hello world
+  link: /transferwise
+  icon: transferwise.svg
