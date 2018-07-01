@@ -4,6 +4,7 @@ $container-width: 1200px;
 $container-padding: 30px;
 
 $primary-color: rgb(56, 159, 200);
+$secondary-color: darken($primary-color, 20%);
 $text-color: #333;
 $link-color: #7F7F7F;
 $border-color: lighten($link-color, 40);
@@ -198,6 +199,10 @@ a {
     font-size: 32px;
     font-weight: 900;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
   &__button {
@@ -220,3 +225,92 @@ a {
 
 }
 
+.copy-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+
+  img {
+    max-height: 16px;
+    max-width: 16px;
+  }
+}
+
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:active .tooltiptext {
+  visibility: visible;
+}
+
+.tooltiptext {
+  font-size: 16px;
+  margin-top: 60px;
+}
+
+.header {
+  background-color: $secondary-color;
+  color: #fff;
+  font-weight: 700;
+  padding: 16px 16px;
+  margin-top: -2px;
+}
+
+@media only screen and (min-width:960px) {
+
+  .header {
+    max-width: 960px;
+    margin: auto;
+    margin-top: 32px;
+    border-radius: 3px;
+  }
+
+  .section__title {
+    max-width: 960px;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 11px;
+  }
+  
+  .list {
+    max-width: 990px;
+    margin: auto;
+    border-radius: 3px;   
+    border: 1px solid $border-color;
+    border-top: 0px;
+    margin-top: 32px;
+  }
+
+  .section-group {
+    max-width: 990px;
+    margin: auto;
+    border-radius: 3px;   
+    border: 1px solid $border-color;
+    border-top: 0px;
+    border-bottom: 0;
+  }
+
+  .section__about {
+    max-width: 960px;
+    margin: auto;
+    border: 1px solid $border-color;
+    border-radius: 3px;   
+  }
+
+}

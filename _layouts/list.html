@@ -6,9 +6,11 @@ layout: default
     {% assign companies = site.data.users[page.username].companies %}
 {% else %}
     {% assign companies = site.data.companies.all %}
+
+    <header class="header">
+        <p>{{ site.data.strings.home.header_text }}</p>
+    </header>
 {% endif %}
-
-
 
 <div class="list">
     <ul>

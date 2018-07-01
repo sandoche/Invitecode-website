@@ -14,12 +14,14 @@
 - [x] Implement colors with logos
 - [x] Improve titles of navbar and of the page
 - [x] Add share button
-- [ ] Add library to copy
-- [ ] Make it responsive
+- [x] Add library to copy
+- [x] Put some text in homepage
+- [x] Make it responsive
 - [ ] Populate with content
 - [ ] Delete useless layouts
 - [ ] Add AMP
 - [ ] Add PWA
+- [ ] Define colors
 - [ ] Create icon
 - [ ] Add icon
 - [ ] Add google analytics
