@@ -22,6 +22,8 @@
 - [x] Deploy & set domain name
 - [ ] Edit the two config files < Farbod
 - [ ] Populate with content < Farbod, Sandoche
+- [ ] Fix button responsive
+- [ ] Add button for multiple codes
 - [ ] Add AMP
 - [ ] Define colors
 - [ ] Create icon
