@@ -15,11 +15,16 @@ sandoche:
 farbod:
   url:
     uber: https://www.uber.com/invite/farbods2
-    airbnb: http://abnb.me/e/jrDZvKNgdF  
+    airbnb: http://abnb.me/e/jrDZvKNgdF
+    lyft: https://lyft.com/igi/FARBOD955429
+    transferwise: https://transferwise.com/u/farbods
   codes:
     uber: farbods2
     airbnb: jrDZvKNgdF
+    lyft: FARBOD955429
+    transferwise: farbods
   companies:
     - uber
     - airbnb
-
+    - lyft
+    - transferwise
