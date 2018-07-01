@@ -7,7 +7,8 @@ layout: default
         {{ site.data.strings.code.promo }} {{ site.data.companies[page.company].name }}
     </h2>
 
-    {% if page.username %}
+    <div class="section-group">
+        {% if page.username %}
         <section class="section section__content section__code">
             <span id="code">
                 {{ site.data.users[page.username].codes[page.company] }}
@@ -17,27 +18,26 @@ layout: default
                 <span class="tooltiptext">Code copied</span>
             </button>
         </section>
-    {% else %}
-        {% for user in site.data.users.all %}
-            {% if site.data.users[user].codes[page.company] %}
-            <section class="section section__content section__code">
-                <span id="code-{{ forloop.index }}">
-                    {{ site.data.users[user].codes[page.company] }}
-                </span>
-                <button class="copy-btn tooltip" data-clipboard-target="#code-{{ forloop.index }}">
-                    <img src="/assets/images/clippy.svg" alt="Copy to clipboard">
-                    <span class="tooltiptext">Code copied</span>
-                </button>
-            </section>
-            {% endif %}
-        {% endfor %}
-    {% endif %}
-
-
-
-    <section class="section section__content section__content--last">
-        {{ site.data.companies[page.company].title }}
-    </section>
+        {% else %}
+            {% for user in site.data.users.all %}
+                {% if site.data.users[user].codes[page.company] %}
+                <section class="section section__content section__code">
+                    <span id="code-{{ forloop.index }}">
+                        {{ site.data.users[user].codes[page.company] }}
+                    </span>
+                    <button class="copy-btn tooltip" data-clipboard-target="#code-{{ forloop.index }}">
+                        <img src="/assets/images/clippy.svg" alt="Copy to clipboard">
+                        <span class="tooltiptext">Code copied</span>
+                    </button>
+                </section>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+        <section class="section section__content section__content--last">
+            {{ site.data.companies[page.company].title }}
+        </section>
+    </div>
+    
 
     {% if page.username %}
     <div class="text-center section__button">
@@ -48,7 +48,7 @@ layout: default
     <h2 class="section__title">
         {{ site.data.strings.code.about }}
     </h2>
-    <section class="section section__content section__content--last">
+    <section class="section section__content section__content--last section__about">
         {{ site.data.companies[page.company].guide }}
     </section>
 </div>

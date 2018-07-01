@@ -16,7 +16,7 @@
 - [x] Add share button
 - [x] Add library to copy
 - [x] Put some text in homepage
-- [ ] Make it responsive
+- [x] Make it responsive
 - [ ] Populate with content
 - [ ] Delete useless layouts
 - [ ] Add AMP

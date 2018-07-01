@@ -271,3 +271,46 @@ a {
   padding: 16px 16px;
   margin-top: -2px;
 }
+
+@media only screen and (min-width:960px) {
+
+  .header {
+    max-width: 960px;
+    margin: auto;
+    margin-top: 32px;
+    border-radius: 3px;
+  }
+
+  .section__title {
+    max-width: 960px;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 11px;
+  }
+  
+  .list {
+    max-width: 990px;
+    margin: auto;
+    border-radius: 3px;   
+    border: 1px solid $border-color;
+    border-top: 0px;
+    margin-top: 32px;
+  }
+
+  .section-group {
+    max-width: 990px;
+    margin: auto;
+    border-radius: 3px;   
+    border: 1px solid $border-color;
+    border-top: 0px;
+    border-bottom: 0;
+  }
+
+  .section__about {
+    max-width: 960px;
+    margin: auto;
+    border: 1px solid $border-color;
+    border-radius: 3px;   
+  }
+
+}
