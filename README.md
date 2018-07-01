@@ -17,13 +17,14 @@
 - [x] Add library to copy
 - [x] Put some text in homepage
 - [x] Make it responsive
-- [ ] Populate with content
-- [ ] Delete useless layouts
+- [x] Delete useless layouts
+- [x] Add google analytics
+- [x] Deploy & set domain name
+- [ ] Edit the two config files < Farbod
+- [ ] Populate with content < Farbod, Sandoche
 - [ ] Add AMP
-- [ ] Add PWA
 - [ ] Define colors
 - [ ] Create icon
 - [ ] Add icon
-- [ ] Add google analytics
 - [ ] Add contact solution / chat
-- [ ] Deploy & set domain name
+- [ ] Add PWA
