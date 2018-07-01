@@ -198,6 +198,10 @@ a {
     font-size: 32px;
     font-weight: 900;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   &__button {
@@ -220,3 +224,16 @@ a {
 
 }
 
+.copy-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  margin-left: 32px;
+
+  img {
+    max-height: 16px;
+    max-width: 16px;
+  }
+}

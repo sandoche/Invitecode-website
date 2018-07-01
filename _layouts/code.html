@@ -9,13 +9,23 @@ layout: default
 
     {% if page.username %}
         <section class="section section__content section__code">
-            {{ site.data.users[page.username].codes[page.company] }}
+            <span id="code">
+                {{ site.data.users[page.username].codes[page.company] }}
+            </span>
+            <button class="copy-btn" data-clipboard-target="#code">
+                <img src="/assets/images/clippy.svg" alt="Copy to clipboard">
+            </button>
         </section>
     {% else %}
         {% for user in site.data.users.all %}
             {% if site.data.users[user].codes[page.company] %}
             <section class="section section__content section__code">
-                {{ site.data.users[user].codes[page.company] }}
+                <span id="code-{{ forloop.index }}">
+                    {{ site.data.users[user].codes[page.company] }}
+                </span>
+                <button class="copy-btn" data-clipboard-target="#code-{{ forloop.index }}">
+                    <img src="/assets/images/clippy.svg" alt="Copy to clipboard">
+                </button>
             </section>
             {% endif %}
         {% endfor %}
