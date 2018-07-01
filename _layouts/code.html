@@ -12,8 +12,9 @@ layout: default
             <span id="code">
                 {{ site.data.users[page.username].codes[page.company] }}
             </span>
-            <button class="copy-btn" data-clipboard-target="#code">
+            <button class="copy-btn tooltip" data-clipboard-target="#code">
                 <img src="/assets/images/clippy.svg" alt="Copy to clipboard">
+                <span class="tooltiptext">Code copied</span>
             </button>
         </section>
     {% else %}
@@ -23,8 +24,9 @@ layout: default
                 <span id="code-{{ forloop.index }}">
                     {{ site.data.users[user].codes[page.company] }}
                 </span>
-                <button class="copy-btn" data-clipboard-target="#code-{{ forloop.index }}">
+                <button class="copy-btn tooltip" data-clipboard-target="#code-{{ forloop.index }}">
                     <img src="/assets/images/clippy.svg" alt="Copy to clipboard">
+                    <span class="tooltiptext">Code copied</span>
                 </button>
             </section>
             {% endif %}

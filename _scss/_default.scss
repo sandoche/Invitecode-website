@@ -237,3 +237,29 @@ a {
     max-width: 16px;
   }
 }
+
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:active .tooltiptext {
+  visibility: visible;
+}
+
+.tooltiptext {
+  font-size: 16px;
+  margin-top: 60px;
+}
