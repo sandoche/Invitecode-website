@@ -2,6 +2,7 @@ all:
   - uber
   - airbnb
   - lyft
+  - transferwise
 
 airbnb:
   name: Airbnb
