@@ -15,12 +15,13 @@
 - [x] Improve titles of navbar and of the page
 - [x] Add share button
 - [x] Add library to copy
-- [ ] Put some text in homepage <
+- [x] Put some text in homepage
 - [ ] Make it responsive
 - [ ] Populate with content
 - [ ] Delete useless layouts
 - [ ] Add AMP
 - [ ] Add PWA
+- [ ] Define colors
 - [ ] Create icon
 - [ ] Add icon
 - [ ] Add google analytics

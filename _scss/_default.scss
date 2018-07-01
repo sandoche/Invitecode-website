@@ -4,6 +4,7 @@ $container-width: 1200px;
 $container-padding: 30px;
 
 $primary-color: rgb(56, 159, 200);
+$secondary-color: darken($primary-color, 20%);
 $text-color: #333;
 $link-color: #7F7F7F;
 $border-color: lighten($link-color, 40);
@@ -261,4 +262,12 @@ a {
 .tooltiptext {
   font-size: 16px;
   margin-top: 60px;
+}
+
+.header {
+  background-color: $secondary-color;
+  color: #fff;
+  font-weight: 700;
+  padding: 16px 16px;
+  margin-top: -2px;
 }
