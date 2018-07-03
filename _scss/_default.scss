@@ -208,6 +208,15 @@ a {
   &__button {
     padding: 16px;
   }
+
+  &__buttons {
+    display: flex;
+    flex-direction: row;
+
+    .copy-btn {
+      margin-left: 16px;
+    }
+  }
 }
 
 .btn {

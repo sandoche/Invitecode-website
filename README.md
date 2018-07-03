@@ -21,7 +21,7 @@
 - [x] Add google analytics
 - [x] Deploy & set domain name
 - [x] Fix button responsive
-- [ ] Add button for multiple codes
+- [x] Add button for multiple codes
 - [ ] Put icons white
 - [ ] Add AMP
 - [ ] Edit the two config files < Farbod
