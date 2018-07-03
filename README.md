@@ -22,10 +22,11 @@
 - [x] Deploy & set domain name
 - [ ] Edit the two config files < Farbod
 - [ ] Populate with content < Farbod, Sandoche
-- [ ] Fix button responsive
-- [ ] Add button for multiple codes
-- [ ] Add AMP
-- [ ] Define colors
+- [ ] Fix button responsive <<
+- [ ] Add button for multiple codes <<
+- [ ] Add AMP <<
+- [x] Define colors
+- [ ] Put icons white
 - [x] Create icon
 - [x] Add icon
 - [ ] Add contact solution / chat

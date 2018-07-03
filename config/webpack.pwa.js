@@ -7,14 +7,14 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 module.exports = Merge(ProdConfig, {
   plugins: [
     new WebpackPwaManifest({
-      name: 'Super-website',
-      short_name: 'Super PWA',
-      description: 'A super website made with love',
+      name: 'Invitecode.is',
+      short_name: 'Invitecode.is',
+      description: 'All the promo codes at the right place',
       orientation: "portrait",
       display: "standalone",
       start_url: "/",
-      theme_color: "#c0ffee",
-      background_color: "#ffffff",
+      theme_color: "#d71051",
+      background_color: "#d71051",
       icons: [
         {
           src: path.resolve('icon.png'),
