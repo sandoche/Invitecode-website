@@ -20,13 +20,13 @@
 - [x] Delete useless layouts
 - [x] Add google analytics
 - [x] Deploy & set domain name
+- [x] Fix button responsive
+- [ ] Add button for multiple codes
+- [ ] Put icons white
+- [ ] Add AMP
 - [ ] Edit the two config files < Farbod
 - [ ] Populate with content < Farbod, Sandoche
-- [ ] Fix button responsive <<
-- [ ] Add button for multiple codes <<
-- [ ] Add AMP <<
 - [x] Define colors
-- [ ] Put icons white
 - [x] Create icon
 - [x] Add icon
 - [ ] Add contact solution / chat
