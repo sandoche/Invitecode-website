@@ -14,20 +14,19 @@
 - [x] Implement colors with logos
 - [x] Improve titles of navbar and of the page
 - [x] Add share button
-- [x] Add library to copy
-- [x] Put some text in homepage
 - [x] Make it responsive
 - [x] Delete useless layouts
 - [x] Add google analytics
 - [x] Deploy & set domain name
 - [x] Fix button responsive
 - [x] Add button for multiple codes
+- [x] Define colors
+- [x] Create icon
+- [x] Add icon
+- [ ] Add icon to the homepage
 - [ ] Put icons white
 - [ ] Add AMP
 - [ ] Edit the two config files < Farbod
 - [ ] Populate with content < Farbod, Sandoche
-- [x] Define colors
-- [x] Create icon
-- [x] Add icon
 - [ ] Add contact solution / chat
 - [ ] Add PWA
