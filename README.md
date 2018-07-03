@@ -23,8 +23,8 @@
 - [x] Define colors
 - [x] Create icon
 - [x] Add icon
-- [ ] Add icon to the homepage
-- [ ] Put icons white
+- [x] Add icon to the homepage
+- [x] Put icons white
 - [ ] Add AMP
 - [ ] Edit the two config files < Farbod
 - [ ] Populate with content < Farbod, Sandoche
