@@ -26,7 +26,7 @@
 - [ ] Add button for multiple codes
 - [ ] Add AMP
 - [ ] Define colors
-- [ ] Create icon
-- [ ] Add icon
+- [x] Create icon
+- [x] Add icon
 - [ ] Add contact solution / chat
 - [ ] Add PWA
