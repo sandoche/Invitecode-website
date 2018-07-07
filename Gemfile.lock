@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/sandoche/amp-jekyll.git
-  revision: 2eb16d8331c5fccfb323ced53634c3bfb638db45
+  revision: afe309f10cb285a17f1bd9955f8d9616d2932431
   specs:
     amp-jekyll (1.0.2)
       fastimage (>= 1.8.0)
