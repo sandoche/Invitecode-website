@@ -16,7 +16,11 @@ layout: amp
   </head>
   <body>
       {% capture header %}
-      <h1 class="text-center">{{ site.title}}</h1>
+      <h1 class="text-center">
+        {% if page.company %}{{ site.data.companies[page.company].name }}{% endif %}
+        Invites codes 
+        {% if page.username %}of {{ page.username }}{% endif %}
+      </h1>
       <hr>
       {% endcapture %}
       <h2 class="post-title">
