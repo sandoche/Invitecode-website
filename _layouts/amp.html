@@ -40,10 +40,6 @@ layout: amp
                   <span id="code">
                       {{ site.data.users[page.username].codes[page.company] }}
                   </span>
-                  <button class="copy-btn tooltip" data-clipboard-target="#code">
-                      <amp-img src="/assets/images/clippy.svg" alt="Copy to clipboard" width="16" height="16">
-                      <span class="tooltiptext">Code copied</span>
-                  </button>
               </section>
               {% else %}
                   {% for user in site.data.users.all %}
@@ -59,11 +55,6 @@ layout: amp
                                       <amp-img src="/assets/images/link.svg" alt="Open link" width="16" height="16">
                                   </button>
                               </a>
-      
-                              <button class="copy-btn tooltip" data-clipboard-target="#code-{{ forloop.index }}">
-                                  <amp-img src="/assets/images/clippy.svg" alt="Copy to clipboard" width="16" height="16">
-                                  <span class="tooltiptext">Code copied</span>
-                              </button>
                           </div>
                       </section>
                       {% endif %}
