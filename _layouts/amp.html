@@ -13,12 +13,15 @@ layout: amp
     </style>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <!-- AMP Analytics --><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   </head>
   <body>
+    <!-- Google Tag Manager -->
+      <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-K5XVPH3&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
       {% capture header %}
       <h1 class="text-center">
         {% if page.company %}{{ site.data.companies[page.company].name }}{% endif %}
-        Invites codes 
+        Invites codes
         {% if page.username %}of {{ page.username }}{% endif %}
       </h1>
       <hr>
@@ -28,12 +31,12 @@ layout: amp
       </h2>
 
       {% if page.type == 'code' %}
-    
+
       <div class="code">
           <h2 class="section__title">
               {{ site.data.strings.code.promo }} {{ site.data.companies[page.company].name }}
           </h2>
-      
+
           <div class="section-group">
               {% if page.username %}
               <section class="section section__content section__code">
@@ -48,7 +51,7 @@ layout: amp
                           <span id="code-{{ forloop.index }}">
                               {{ site.data.users[user].codes[page.company] }}
                           </span>
-      
+
                           <div class="section__buttons">
                               <a href="{{ site.data.users[user].url[page.company] }}" target="_blank">
                                   <button class="copy-btn">
@@ -64,14 +67,14 @@ layout: amp
                   {{ site.data.companies[page.company].title }}
               </section>
           </div>
-          
-      
+
+
           {% if page.username %}
           <div class="text-center section__button">
               <a href="{{ site.data.users[page.username].url[page.company] }}" class="btn" target="_blank">{{ site.data.strings.code.call_to_action }}</a>
           </div>
           {% endif %}
-      
+
           <h2 class="section__title">
               {{ site.data.strings.code.about }}
           </h2>
@@ -79,7 +82,7 @@ layout: amp
               {{ site.data.companies[page.company].guide }}
           </section>
       </div>
-      
+
       {% endif %}
 
       {% if page.type == 'list' %}
@@ -87,13 +90,13 @@ layout: amp
       {% assign companies = site.data.users[page.username].companies %}
   {% else %}
       {% assign companies = site.data.companies.all %}
-  
+
       <header class="header">
           <amp-img src="/assets/images/icon.png" width="25" height="25">
           <p>{{ site.data.strings.home.header_text }}</p>
       </header>
   {% endif %}
-  
+
   <div class="list">
       <ul>
           {% for company in companies %}
@@ -107,7 +110,7 @@ layout: amp
                       <p>{{ site.data.companies[company].title }}</p>
                   </div>
                   <div class="company__action">
-                      › 
+                      ›
                   </div>
               </a>
           </li>
@@ -116,8 +119,8 @@ layout: amp
   </div>
       {% endif %}
 
-    
-    
+
+
 
       {{ content | markdownify | amp_images }}
       {% capture footer %}{% endcapture %}
