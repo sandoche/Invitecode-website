@@ -6,11 +6,14 @@ sandoche:
   url:
     uber: https://www.uber.com/invite/f416b
     airbnb: https://abnb.me/e/JEIN6Vvx9N
+    coinbase: https://www.coinbase.com/join/59b2af0a6d5fb6030e41f013
   codes:
     uber: f416b
     airbnb: JEIN6Vvx9N
+    coinbase: https://www.coinbase.com/join/59b2af0a6d5fb6030e41f013
   companies:
     - uber
+    - coinbase
 
 farbod:
   url:
