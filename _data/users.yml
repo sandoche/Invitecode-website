@@ -8,16 +8,31 @@ sandoche:
     airbnb: https://abnb.me/e/JEIN6Vvx9N
     transferwise: https://transferwise.com/a/sandochea
     coinbase: https://www.coinbase.com/join/59b2af0a6d5fb6030e41f013
+    binance: https://www.binance.com/?ref=11053279
+    bankin: https://api.bankin.com/goSms?s=NOKQWG
+    touchnote: https://www.touchnote.com/?pid=Userinvite&c=RaF
+    dropbox: https://db.tt/uBktYaxP
+    trello: https://trello.com/sandoche/recommend
   codes:
     uber: f416b
     airbnb: JEIN6Vvx9N
     transferwise: sandochea
     coinbase: https://www.coinbase.com/join/59b2af0a6d5fb6030e41f013
+    binance: '11053279'
+    bankin: NOKQWG
+    touchnote: SANDTWDTOO
+    dropbox: https://db.tt/uBktYaxP
+    trello: https://trello.com/sandoche/recommend
   companies:
     - uber
     - airbnb
     - transferwise
     - coinbase
+    - binance
+    - bankin
+    - touchnote
+    - dropbox
+    - trello
 
 farbod:
   url:
