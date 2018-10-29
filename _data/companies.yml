@@ -65,18 +65,18 @@ bankin:
   color: '#4EADEA'
   guide: Register and start using the app, you will have a premium account for free, there is no need to add your payement information
   link: /bankin
-  icon: bankin.svg
+  icon: bankin.png
 touchnote:
   name: Touchnote
   title: Get 5€ of free credit to send postcard all around the world
   color: '#37b1bf'
   guide: Just download the app, create an account following the link and using the code. Then you can design your postcard and send them using your free credit!
   link: /touchnote
-  icon: touchnote.svg
+  icon: touchnote.png
 dropbox:
   name: Dropbox
   title: Get 500 mb extra space on your Dropbox drive
-  color: '#42589C'
+  color: '#0061FF'
   guide: Go to the link, register, and you will enjoy 500 mb extra space to the 2 Gb that you get by default
   link: /dropbox
   icon: dropbox.svg
@@ -93,32 +93,32 @@ frichti:
   color: '#FCF283'
   guide: Register using the link, then make a food order
   link: /frichti
-  icon: frichti.svg
+  icon: frichti.png
 chauffeurprive:
   name: Chauffeur Privé
   title: Get 5€ for your first ride
   color: '#CF112D'
   guide: Register with the link and create an account. It should be your first account on Chauffeur privé
   link: /chauffeurprive
-  icon: chauffeurprive.svg
+  icon: chauffeurprive.png
 heetch:
   name: Heetch
   title: Get 5€ for your first ride
   color: '#F80059'
   guide: Register with the link and create an account. It should be your first account on Heetch
   link: /heetch
-  icon: heetch.svg
+  icon: heetch.png
 thefork:
   name: The Fork
   title: Get 10€ of discount in the next restaurant you will book
   color: '#558F40'
   guide: Register using the link, then book a restaurant, 3 days after your first booking you will receive 1000 YUM (= 10 €)
   link: /thefork
-  icon: thefork.svg
+  icon: thefork.png
 ouibus:
   name: OuiBus
   title: Get 5€ of discount on your first bus booked
-  color: '#ED0677'
+  color: '#cb005e'
   guide: Register using the link and you will get 5 € of discount in your first booking
   link: /ouibus
-  icon: ouibus.svg
+  icon: ouibus.png
