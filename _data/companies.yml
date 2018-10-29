@@ -51,7 +51,7 @@ coinbase:
   color: '#2B67C9'
   guide: Go to the link aoegiste
   link: /coinbase
-  icon: coinbase.svg
+  icon: coinbase.png
 binance:
   name: Binance
   title: 20% commission for referrer
