@@ -4,6 +4,7 @@ all:
   - lyft
   - transferwise
   - coinbase
+  - n26
   - chauffeurprive
   - heetch
   - frichti
@@ -38,6 +39,13 @@ lyft:
   guide: Hello world
   link: /lyft
   icon: lyft.svg
+n26:
+  name: N26
+  title: Get an online bank account with a free debit card
+  color: '#48AC98'
+  guide: Create an account using this invite code, spend 15 € and your referrer will receive 15 €
+  link: /n26
+  icon: n26.svg
 transferwise:
   name: TransferWise
   title: Get a free international transfer of up to €500
