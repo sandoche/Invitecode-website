@@ -23,110 +23,110 @@ airbnb:
   title: Get up to $40 in travel credits
   color: '#FF5A5F'
   guide: Click on one of the link above to be directed to the promotion page to claim the credits.  After Login or sign up, the credit will be applied once you checkout during the payment.
-  link: /airbnb
+  link: /airbnb/
   icon: airbnb.svg
 uber:
   name: Uber
   title: Get a free ride with the promocode
   color: '#000000'
   guide: Download the Uber app and after registration, go to the “My Account” section in the top left of the app, then tap on "Promotion", enter the code and enjoy the discounted trip. Tap the “My Account” button in the top left of the app.
-  link: /uber
+  link: /uber/
   icon: uber.svg
 lyft:
   name: Lyft
   title: Get up to $20 free ride credit on Lyft
   color: '#ea37ba'
   guide: Hello world
-  link: /lyft
+  link: /lyft/
   icon: lyft.svg
 n26:
   name: N26
   title: Get an online bank account with a free debit card
   color: '#48AC98'
   guide: Create an account using this invite code, spend 15 € and your referrer will receive 15 €
-  link: /n26
+  link: /n26/
   icon: n26.svg
 transferwise:
   name: TransferWise
   title: Get a free international transfer of up to €500
   color: '#50b7f9'
   guide: Hello world
-  link: /transferwise
+  link: /transferwise/
   icon: transferwise.svg
 coinbase:
   name: Coinbase
   title: Earn $10 of free bitcoin when you buy or sell $100 of bitcoin or more
   color: '#2B67C9'
   guide: Go to the link aoegiste
-  link: /coinbase
+  link: /coinbase/
   icon: coinbase.png
 binance:
   name: Binance
   title: 20% commission for referrer
   color: '#ECB32E'
   guide: Use this link, register and start trading
-  link: /binance
+  link: /binance/
   icon: binance.svg
 bankin:
   name: Bankin
   title: Get one free month of Premium plan
   color: '#4EADEA'
   guide: Register and start using the app, you will have a premium account for free, there is no need to add your payement information
-  link: /bankin
+  link: /bankin/
   icon: bankin.png
 touchnote:
   name: Touchnote
   title: Get 5€ of free credit to send postcard all around the world
   color: '#37b1bf'
   guide: Just download the app, create an account following the link and using the code. Then you can design your postcard and send them using your free credit!
-  link: /touchnote
+  link: /touchnote/
   icon: touchnote.png
 dropbox:
   name: Dropbox
   title: Get 500 mb extra space on your Dropbox drive
   color: '#0061FF'
   guide: Go to the link, register, and you will enjoy 500 mb extra space to the 2 Gb that you get by default
-  link: /dropbox
+  link: /dropbox/
   icon: dropbox.svg
 trello:
   name: Trello
   title: Free month of Trello Gold for referrer
   color: '#0079BF'
   guide: Just register, and start using Trello, the referrer will get 1 month of premium
-  link: /trello
+  link: /trello/
   icon: trello.svg
 frichti:
   name: Frichti
   title: Get 10€ for free to order any food
   color: '#FCF283'
   guide: Register using the link, then make a food order
-  link: /frichti
+  link: /frichti/
   icon: frichti.png
 chauffeurprive:
   name: Chauffeur Privé
   title: Get 5€ for your first ride
   color: '#CF112D'
   guide: Register with the link and create an account. It should be your first account on Chauffeur privé
-  link: /chauffeurprive
+  link: /chauffeurprive/
   icon: chauffeurprive.png
 heetch:
   name: Heetch
   title: Get 5€ for your first ride
   color: '#F80059'
   guide: Register with the link and create an account. It should be your first account on Heetch
-  link: /heetch
+  link: /heetch/
   icon: heetch.png
 thefork:
   name: The Fork
   title: Get 10€ of discount in the next restaurant you will book
   color: '#558F40'
   guide: Register using the link, then book a restaurant, 3 days after your first booking you will receive 1000 YUM (= 10 €)
-  link: /thefork
+  link: /thefork/
   icon: thefork.png
 ouibus:
   name: OuiBus
   title: Get 5€ of discount on your first bus booked
   color: '#cb005e'
   guide: Register using the link and you will get 5 € of discount in your first booking
-  link: /ouibus
+  link: /ouibus/
   icon: ouibus.png
