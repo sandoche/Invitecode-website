@@ -1,6 +1,7 @@
 all:
   - uber
   - airbnb
+  - booking
   - lyft
   - transferwise
   - coinbase
@@ -16,8 +17,6 @@ all:
   - bankin
   - trello
 
-
-
 airbnb:
   name: Airbnb
   title: Get up to $40 in travel credits
@@ -25,6 +24,13 @@ airbnb:
   guide: Click on one of the link above to be directed to the promotion page to claim the credits.  After Login or sign up, the credit will be applied once you checkout during the payment.
   link: /airbnb/
   icon: airbnb.svg
+booking:
+  name: Booking
+  title: Receive 10% of cash back on your first reservation
+  color: '#003580'
+  guide: Click on one of the link above. Create an account. Book your first hotel. You will receive the 10% cashback after the checkout of your booking.
+  link: /booking/
+  icon: booking.svg  
 uber:
   name: Uber
   title: Get a free ride with the promocode
