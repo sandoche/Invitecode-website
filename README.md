@@ -25,8 +25,8 @@
 - [x] Add icon
 - [x] Add icon to the homepage
 - [x] Put icons white
-- [ ] Add AMP
-- [ ] Edit the two config files < Farbod
-- [ ] Populate with content < Farbod, Sandoche
+- [x] Add AMP
+- [x] Edit the two config files < Farbod
+- [x] Populate with content < Farbod, Sandoche
 - [ ] Add contact solution / chat
-- [ ] Add PWA
+- [x] Add PWA
