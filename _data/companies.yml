@@ -1,11 +1,12 @@
 all:
   - uber
   - airbnb
+  - n26
   - booking
   - lyft
   - transferwise
   - coinbase
-  - n26
+  - lime
   - chauffeurprive
   - heetch
   - frichti
@@ -136,3 +137,10 @@ ouibus:
   guide: Register using the link and you will get 5 € of discount in your first booking
   link: /ouibus/
   icon: ouibus.png
+lime:
+  name: Lime
+  title: Get a free unlock code
+  color: '#23d000'
+  guide: Register using this code and you will be able to unlock a scooter for free
+  link: /lime/
+  icon: lime.png

@@ -20,6 +20,7 @@ sandoche:
     heetch: http://heet.ch/i/sandoche102813
     thefork: http://tfk.io/1r5mr3
     ouibus: https://fr.ouibus.com/parrainage/8504a5e
+    lime: https://lime.bike/referral/RJY3YMR
   codes:
     uber: f416b
     airbnb: JEIN6Vvx9N
@@ -37,12 +38,14 @@ sandoche:
     heetch: SANDOCHE102813
     thefork: 7A9883E3
     ouibus: https://fr.ouibus.com/parrainage/8504a5e
+    lime: RJY3YMR
   companies:
     - uber
     - airbnb
+    - n26
     - booking
     - transferwise
-    - n26
+    - lime
     - coinbase
     - binance
     - bankin
@@ -61,13 +64,16 @@ farbod:
     airbnb: http://abnb.me/e/jrDZvKNgdF
     lyft: https://lyft.com/igi/FARBOD955429
     transferwise: https://transferwise.com/u/farbods
+    lime: https://lime.bike/referral/RDVHKRX
   codes:
     uber: farbods2
     airbnb: jrDZvKNgdF
     lyft: FARBOD955429
     transferwise: farbods
+    lime: RDVHKRX
   companies:
     - uber
     - airbnb
     - lyft
     - transferwise
+    - lime
