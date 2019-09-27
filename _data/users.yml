@@ -21,6 +21,8 @@ sandoche:
     thefork: http://tfk.io/1r5mr3
     ouibus: https://fr.ouibus.com/parrainage/8504a5e
     lime: https://lime.bike/referral/RJY3YMR
+    shine: https://shine.fr/r/SANDO1405
+    revolut: https://www.revolut.com/en-FR/referral/sandoc8k0!G10D21
   codes:
     uber: f416b
     airbnb: JEIN6Vvx9N
@@ -39,10 +41,14 @@ sandoche:
     thefork: 7A9883E3
     ouibus: https://fr.ouibus.com/parrainage/8504a5e
     lime: RJY3YMR
+    shine: SANDO1405
+    revolut: sandoc8k0!G10D21
   companies:
     - uber
     - airbnb
     - n26
+    - revolut
+    - shine
     - booking
     - transferwise
     - lime
