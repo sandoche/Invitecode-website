@@ -1,7 +1,9 @@
 all:
   - uber
   - airbnb
+  - shine
   - n26
+  - revolut
   - booking
   - lyft
   - transferwise
@@ -144,3 +146,17 @@ lime:
   guide: Register using this code and you will be able to unlock a scooter for free
   link: /lime/
   icon: lime.png
+shine:
+  name: Shine
+  title: Get 2 months of free Shine banking
+  color: '#fff'
+  guide: Register using this code and you will be able to unlock 2 months of free Shine services
+  link: /shine/
+  icon: shine.png
+revolut:
+  name: Revolut
+  title: Get a bank account with a free card 10 €
+  color: '#fff'
+  guide: Create an account using this invite code and verify your account
+  link: /revolut/
+  icon: revolut.png
