@@ -149,14 +149,14 @@ lime:
 shine:
   name: Shine
   title: Get 2 months of free Shine banking
-  color: '#fff'
+  color: '#f4f4f4'
   guide: Register using this code and you will be able to unlock 2 months of free Shine services
   link: /shine/
   icon: shine.png
 revolut:
   name: Revolut
   title: Get a bank account with a free card 10 €
-  color: '#fff'
+  color: '#f4f4f4'
   guide: Create an account using this invite code and verify your account
   link: /revolut/
   icon: revolut.png
