@@ -1,4 +1,4 @@
-# Invitecode.is
+# Invitecode
 
 ## How to run
 * `yarn install` then `yarn start` to develop and `yarn build:pwa` to build it 

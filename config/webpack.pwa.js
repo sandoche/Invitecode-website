@@ -7,8 +7,8 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 module.exports = Merge(ProdConfig, {
   plugins: [
     new WebpackPwaManifest({
-      name: 'Invitecode.is',
-      short_name: 'Invitecode.is',
+      name: 'Invite-code.com',
+      short_name: 'Invitecode',
       description: 'All the promo codes at the right place',
       orientation: "portrait",
       display: "standalone",
