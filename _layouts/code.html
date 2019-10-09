@@ -10,7 +10,7 @@ layout: default
     <div class="section-group">
         {% if page.username %}
         <section class="section section__content section__code">
-            <span id="code">
+            <span id="code" class="section__code-text">
                 {{ site.data.users[page.username].codes[page.company] }}
             </span>
             <button class="copy-btn tooltip" data-clipboard-target="#code">
@@ -22,7 +22,7 @@ layout: default
             {% for user in site.data.users.all %}
                 {% if site.data.users[user].codes[page.company] %}
                 <section class="section section__content section__code">
-                    <span id="code-{{ forloop.index }}">
+                    <span id="code-{{ forloop.index }}" class="section__code-text">
                         {{ site.data.users[user].codes[page.company] }}
                     </span>
 
