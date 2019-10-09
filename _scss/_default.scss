@@ -204,6 +204,13 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    &-text {
+      display: inline-block;
+      width: calc(100% - 100px);
+      overflow-y: hidden;
+      overflow-x: auto;
+    }
   }
 
   &__button {
@@ -258,6 +265,7 @@ a {
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
+  right: 2%;
 
   /* Position the tooltip text - see examples below! */
   position: absolute;
