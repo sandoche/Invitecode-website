@@ -1,32 +1,58 @@
-# Invitecode
+<p align="center">
+  <img src="/icon.png" width="150">
+</p>
+<h1 align="center">Invite-code.com</h1>
+<p>
+  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/mashape/apistatus.svg" target="_blank" />
+  </a>
 
-## How to run
-* `yarn install` then `yarn start` to develop and `yarn build:pwa` to build it 
-* Read more on the documentation of Jekyll Webpack Boilerplate: https://github.com/sandoche/Jekyll-webpack-boilerplate
+  <a href="https://twitter.com/farbodsaraf">
+    <img alt="Twitter: farbodsaraf" src="https://img.shields.io/twitter/follow/farbodsaraf.svg?style=social" target="_blank" />
+  </a>
+</p>
 
-## Todo
-- [x] Define the templates
-- [x] Implement the template all
-- [x] Implement the template code all
-- [x] Implement the template user
-- [x] Implement the template code user
-- [x] Implement navigation button
-- [x] Implement colors with logos
-- [x] Improve titles of navbar and of the page
-- [x] Add share button
-- [x] Make it responsive
-- [x] Delete useless layouts
-- [x] Add google analytics
-- [x] Deploy & set domain name
-- [x] Fix button responsive
-- [x] Add button for multiple codes
-- [x] Define colors
-- [x] Create icon
-- [x] Add icon
-- [x] Add icon to the homepage
-- [x] Put icons white
-- [x] Add AMP
-- [x] Edit the two config files < Farbod
-- [x] Populate with content < Farbod, Sandoche
-- [ ] Add contact solution / chat
-- [x] Add PWA
+All the invite codes at the right place 🏷️🤑
+
+### 👉 [Get invite codes](https://invite-code.com)
+<br>
+
+## 📖 How to use
+
+### Install
+
+```sh
+npm install
+bundler install
+```
+
+### Development
+
+```sh
+npm run dev
+```
+
+## Authors
+
+👤 **Sandoche ADITTANE & Farbod SARAF**
+
+* Twitter: [@farbodsaraf](https://twitter.com/farbodsaraf)
+* Github: [@sandoche](https://github.com/sandoche)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## ⭐️ Show your support
+
+Give a ⭐️ if this project helped you!
+
+## ☕️ Buy me a coffee 
+
+If you like this project, feel free to donate: https://www.buymeacoffee.com/detoxify
+
+## 📝 License
+
+Copyright © 2020 [Sandoche ADITTANE](https://www.sandoche.com) & [Farbod SARAF](https://farbodsaraf.com/)<br />
+This project is [MIT](/LICENSE) licensed.
