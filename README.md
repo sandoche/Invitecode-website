@@ -35,20 +35,50 @@ npm run dev
 ## 🏷️ How to add codes
 
 ### Add a company
-1. Choose an unique id for the company (`foobar` for example)
+1. Choose an unique id for the company (`acme` for example)
 2. Open `_data/companies.yml`
 3. Add the unique id to `all`
 4. At the end of the file add the companies metadata following this example
 ```yaml
-foobar: #replace foobar by the unique id
-  name: FooBar Corporation
-  title: Get a 20 € in your FooBar account
+acme: #replace acme by the unique id
+  name: ACME
+  title: Get a 20 € in your ACME account
   color: '#f4f4f4' # should match the theme color of the company
   guide: Create an account using this invite code and do a first purchase
-  link: /foobar/
-  icon: foobar.png
+  link: /acme/
+  icon: acme.png
 ```
 5. Add the icon of the company in `_images/icons/` using the same name that in the previous metadata
+
+### Create a user
+1. Choose an unique id as a username (`johndoe` for example)
+2. Open `_data/users.yml`
+3. Add the unique id to `all`
+4. At the end of the file add the username followed by these 3 attributes `url`, `codes` and `companies` following this example:
+```yaml
+johndoe:
+  url:
+    uber: https://www.uber.com/invite/f416b
+    airbnb: https://abnb.me/e/JEIN6Vvx9N
+    acme: https://www.acme.com/code123
+  codes:
+    uber: f416b
+    airbnb: JEIN6Vvx9N
+    acme: code123
+  companies:
+    - uber
+    - airbnb
+    - acme
+```
+
+### Create a page for a company
+todo
+
+### Create a page for a user
+todo
+
+### Create a page for a promocode of a specific user
+todo
 
 ## Authors
 
