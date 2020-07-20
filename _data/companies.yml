@@ -9,7 +9,7 @@ all:
   - transferwise
   - coinbase
   - lime
-  - chauffeurprive
+  - kapten
   - heetch
   - frichti
   - thefork
@@ -111,13 +111,13 @@ frichti:
   guide: Register using the link, then make a food order
   link: /frichti/
   icon: frichti.png
-chauffeurprive:
-  name: Chauffeur Privé
+kapten:
+  name: Kapten
   title: Get 5€ for your first ride
-  color: '#CF112D'
-  guide: Register with the link and create an account. It should be your first account on Chauffeur privé
-  link: /chauffeurprive/
-  icon: chauffeurprive.png
+  color: '#08597f'
+  guide: Register with the link and create an account. It should be your first account on Kapten
+  link: /kapten/
+  icon: kapten.svg
 heetch:
   name: Heetch
   title: Get 5€ for your first ride

@@ -1,8 +1,8 @@
 ---
 layout: code
 type: code
-title: Sandoche's Chauffeur privé promocode
-permalink: /sandoche/chauffeurprive/
+title: Sandoche's Kapten promocode
+permalink: /sandoche/kapten/
 username: sandoche
-company: chauffeurprive
+company: kapten
 ---
