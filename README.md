@@ -18,7 +18,7 @@ All the invite codes at the right place 🏷️🤑
 ### 👉 [Get invite codes](https://invite-code.com)
 <br>
 
-## 📖 How to use
+## ⚙️ How to run
 
 ### Install
 
@@ -32,6 +32,23 @@ bundler install
 ```sh
 npm run dev
 ```
+## 🏷️ How to add codes
+
+### Add a company
+1. Choose an unique id for the company (`foobar` for example)
+2. Open `_data/companies.yml`
+3. Add the unique id to `all`
+4. At the end of the file add the companies metadata following this example
+```yaml
+foobar: #replace foobar by the unique id
+  name: FooBar Corporation
+  title: Get a 20 € in your FooBar account
+  color: '#f4f4f4' # should match the theme color of the company
+  guide: Create an account using this invite code and do a first purchase
+  link: /foobar/
+  icon: foobar.png
+```
+5. Add the icon of the company in `_images/icons/` using the same name that in the previous metadata
 
 ## Authors
 

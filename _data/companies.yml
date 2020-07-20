@@ -5,6 +5,7 @@ all:
   - n26
   - revolut
   - booking
+  - croissant
   - lyft
   - transferwise
   - coinbase
@@ -19,6 +20,7 @@ all:
   - dropbox
   - bankin
   - trello
+  - joinsecret
 
 airbnb:
   name: Airbnb
@@ -160,3 +162,17 @@ revolut:
   guide: Create an account using this invite code and verify your account
   link: /revolut/
   icon: revolut.png
+croissant:
+  name: Croissant
+  title: Get a free week of coworking anywhere in the world
+  color: '#ffc10e'
+  guide: Create an account using this invite code and verify your account
+  link: /croissant/
+  icon: getcroissant.jpg
+joinsecret:
+  name: Secret
+  title: Access exclusive discounts and benefits on many softwares
+  color: '#3f4654'
+  guide: Create an account using this invite code
+  link: /joinsecret/
+  icon: joinsecret.png
