@@ -1,9 +1,9 @@
 {
-  "name": "Jekyll-webpack-boilerplate",
+  "name": "invitecode-website",
   "version": "1.0.0",
-  "description": "A boilerplate with Jekyll and Webpack to make the most performant static websites",
+  "description": "All the invite codes at the right place",
   "main": "src/index.js",
-  "repository": "git@github.com:sandoche/Jekyll-webpack-boilerplate.git",
+  "repository": "git@github.com:sandoche/Invitecode-website.git",
   "author": "Sandoche Adittane <sandoche@gmail.com>",
   "license": "MIT",
   "scripts": {

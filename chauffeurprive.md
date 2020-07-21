@@ -1,7 +1,7 @@
 ---
 layout: code
 type: code
-title: Chauffeur privé promocodes
-permalink: /chauffeurprive/
-company: chauffeurprive
+title: Kapten promocodes
+permalink: /kapten/
+company: kapten
 ---

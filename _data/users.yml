@@ -16,13 +16,15 @@ sandoche:
     dropbox: https://db.tt/uBktYaxP
     trello: https://trello.com/sandoche/recommend
     frichti: https://www.frichti.co/pages/invite/?r=58NQA
-    chauffeurprive: http://chpr.fr/SANADI
+    kapten: http://chpr.fr/SANADI
     heetch: http://heet.ch/i/sandoche102813
     thefork: http://tfk.io/1r5mr3
     ouibus: https://fr.ouibus.com/parrainage/8504a5e
     lime: https://lime.bike/referral/RJY3YMR
     shine: https://shine.fr/r/SANDO1405
     revolut: https://www.revolut.com/en-FR/referral/sandoc8k0!G10D21
+    joinsecret: https://www.joinsecret.com/?r=4ef01fecaaba
+    croissant: https://www.getcroissant.com/a/sandoche15
   codes:
     uber: f416b
     airbnb: JEIN6Vvx9N
@@ -36,18 +38,21 @@ sandoche:
     dropbox: https://db.tt/uBktYaxP
     trello: https://trello.com/sandoche/recommend
     frichti: https://www.frichti.co/pages/invite/?r=58NQA
-    chauffeurprive: SANADI
+    kapten: SANADI
     heetch: SANDOCHE102813
     thefork: 7A9883E3
     ouibus: https://fr.ouibus.com/parrainage/8504a5e
     lime: RJY3YMR
     shine: SANDO1405
     revolut: sandoc8k0!G10D21
+    joinsecret: https://www.joinsecret.com/?r=4ef01fecaaba
+    croissant: sandoche15
   companies:
     - uber
     - airbnb
     - n26
     - revolut
+    - croissant
     - shine
     - booking
     - transferwise
@@ -59,10 +64,11 @@ sandoche:
     - dropbox
     - trello
     - frichti
-    - chauffeurprive
+    - kapten
     - heetch
     - thefork
     - ouibus
+    - joinsecret
 
 farbod:
   url:
