@@ -72,7 +72,17 @@ johndoe:
 ```
 
 ### Create a page for a company
-todo
+1. At the root of the project create a md file with the same unique id as the company (`acme.md` for example)
+2. Copy paste the following content and make sure to change the `title`, `permalink` and `company`, also `company`'s value should be the same as the unique id:
+```yaml
+---
+layout: code
+type: code
+title: ACME promocodes
+permalink: /acme/
+company: acme
+---
+```
 
 ### Create a page for a user
 todo
