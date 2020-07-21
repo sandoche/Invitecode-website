@@ -2,6 +2,6 @@
 layout: code
 type: code
 title: Secret promocodes
-permalink: /join-secret/
+permalink: /joinsecret/
 company: joinsecret
 ---

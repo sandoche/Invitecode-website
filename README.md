@@ -92,7 +92,7 @@ company: acme # it should match the unique id defined previously
 layout: list
 type: list
 title: John Doe's Promo codes
-permalink: /john-doe/
+permalink: /johndoe/
 username: johndoe # it should match the unique id defined previously
 ---
 ```
@@ -105,7 +105,7 @@ username: johndoe # it should match the unique id defined previously
 layout: code
 type: code
 title: John Doe's ACME promocode
-permalink: /john-doe/acme/
+permalink: /johndoe/acme/
 username: johndoe # it should match the unique id defined previously
 company: acme # it should match the unique id defined previously
 ---
