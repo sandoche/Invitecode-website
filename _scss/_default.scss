@@ -360,7 +360,8 @@ a {
   box-sizing: border-box;
 
   @media only screen and (min-width:960px) {
-    padding: 0;
+    padding: 0 0 16px 0;
+    max-width: 990px;
   }
 
 
