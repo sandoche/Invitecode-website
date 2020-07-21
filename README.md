@@ -72,8 +72,8 @@ johndoe:
 ```
 
 ### Create a page for a company
-1. At the root of the project create a md file with the same unique id as the company (`acme.md` for example)
-2. Copy paste the following content and make sure to change the `title`, `permalink` and `company`, also `company`'s value should be the same as the unique id:
+1. At the root of the project create a `md` file with the same unique id as the company (`acme.md` for example)
+2. Copy paste the following content and make sure to change the values of `title`, `permalink` and `company`, also `company`'s value should be the same as the unique id:
 ```yaml
 ---
 layout: code
@@ -85,10 +85,31 @@ company: acme
 ```
 
 ### Create a page for a user
-todo
+1. At the root of the project create a `md` file with the same unique id as the username (`johndoe.md` for example)
+2. Copy paste the following content and make sure to change the values of `title`, `permalink` and `username`, also `username`'s value should be the same as the username unique id:
+```yaml
+---
+layout: list
+type: list
+title: John Doe's Promo codes
+permalink: /john-doe/
+username: johndoe
+---
+```
 
 ### Create a page for a promocode of a specific user
-todo
+1. Each promocode added to a specific user should have its own page, so create a `md` file with the name of username and the unique id of the company (`johndoe_acme.md`)
+2. Copy paste the following content and make sure to change the values of `title`, `permalink`, `username`, `company`, once again `username` should match the username unique id, and `company` the company's unique id:
+```yaml
+---
+layout: code
+type: code
+title: John Doe's ACME promocode
+permalink: /john-doe/acme/
+username: johndoe
+company: acme
+---
+```
 
 ## Authors
 
