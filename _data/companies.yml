@@ -22,6 +22,7 @@ all:
   - trello
   - joinsecret
   - hetzner
+  - digitalocean
 
 airbnb:
   name: Airbnb
@@ -184,3 +185,10 @@ hetzner:
   guide: Create an hetzner cloud account using this invite code
   link: /hetzner/
   icon: hetzner.png
+digitalocean:
+  name: DigitalOcean
+  title: Get $100 in credit over 60 days
+  color: '#005fff'
+  guide: Create an account using the referral link and get $100 in credit over 60 days
+  link: /digitalocean/
+  icon: digitalocean.svg
