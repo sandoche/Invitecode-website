@@ -1,6 +1,7 @@
 all:
   - sandoche
   - farbod
+  - drakmail
 
 sandoche:
   url:
@@ -89,3 +90,11 @@ farbod:
     - lyft
     - transferwise
     - lime
+
+drakmail:
+  url:
+    hetzner: https://hetzner.cloud/?ref=LXgMWfucsXcK
+  codes:
+    hetzner: LXgMWfucsXcK
+  companies:
+    - hetzner
