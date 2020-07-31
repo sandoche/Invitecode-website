@@ -2,6 +2,7 @@ all:
   - sandoche
   - farbod
   - drakmail
+  - marianocordoba
 
 sandoche:
   url:
@@ -98,3 +99,11 @@ drakmail:
     hetzner: LXgMWfucsXcK
   companies:
     - hetzner
+
+marianocordoba:
+  url:
+    digitalocean: https://m.do.co/c/61daf8c06490
+  codes:
+    digitalocean: 61daf8c06490
+  companies:
+    - digitalocean
