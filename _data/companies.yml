@@ -22,6 +22,8 @@ all:
   - bankin
   - trello
   - joinsecret
+  - hetzner
+  - digitalocean
 
 airbnb:
   name: Airbnb
@@ -36,7 +38,7 @@ booking:
   color: '#003580'
   guide: Click on one of the link above. Create an account. Book your first hotel. You will receive the 10% cashback after the checkout of your booking.
   link: /booking/
-  icon: booking.svg  
+  icon: booking.svg
 uber:
   name: Uber
   title: Get a free ride with the promocode
@@ -184,3 +186,17 @@ qonto:
   guide: You will receive €10, credited to your account after your first payment with the Qonto card.
   link: /qonto/
   icon: qonto.jpg
+hetzner:
+  name: Hetzner
+  title: Get a 20 € in your Hetzner Cloud account
+  color: '#d50c2d'
+  guide: Create an hetzner cloud account using this invite code
+  link: /hetzner/
+  icon: hetzner.png
+digitalocean:
+  name: DigitalOcean
+  title: Get $100 in credit over 60 days
+  color: '#005fff'
+  guide: Create an account using the referral link and get $100 in credit over 60 days
+  link: /digitalocean/
+  icon: digitalocean.svg
