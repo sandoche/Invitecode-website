@@ -27,6 +27,7 @@ sandoche:
     revolut: https://www.revolut.com/en-FR/referral/sandoc8k0!G10D21
     joinsecret: https://www.joinsecret.com/?r=4ef01fecaaba
     croissant: https://www.getcroissant.com/a/sandoche15
+    qonto: https://qonto.eu/r/v3htuf
   codes:
     uber: f416b
     airbnb: JEIN6Vvx9N
@@ -49,6 +50,7 @@ sandoche:
     revolut: sandoc8k0!G10D21
     joinsecret: https://www.joinsecret.com/?r=4ef01fecaaba
     croissant: sandoche15
+    qonto: https://qonto.eu/r/v3htuf
   companies:
     - uber
     - airbnb
@@ -71,6 +73,7 @@ sandoche:
     - thefork
     - ouibus
     - joinsecret
+    - qonto
 
 farbod:
   url:

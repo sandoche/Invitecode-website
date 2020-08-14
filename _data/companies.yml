@@ -5,6 +5,7 @@ all:
   - n26
   - revolut
   - booking
+  - qonto
   - croissant
   - lyft
   - transferwise
@@ -178,6 +179,13 @@ joinsecret:
   guide: Create an account using this invite code
   link: /joinsecret/
   icon: joinsecret.png
+qonto:
+  name: Qonto
+  title: Join Qonto and earn €10!
+  color: '#6c5aee'
+  guide: You will receive €10, credited to your account after your first payment with the Qonto card.
+  link: /qonto/
+  icon: qonto.jpg
 hetzner:
   name: Hetzner
   title: Get a 20 € in your Hetzner Cloud account
