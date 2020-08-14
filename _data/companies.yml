@@ -5,7 +5,7 @@ all:
   - n26
   - revolut
   - booking
-  - Qonto
+  - qonto
   - croissant
   - lyft
   - transferwise
