@@ -7,7 +7,7 @@
   <a href="/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/github/license/mashape/apistatus.svg" target="_blank" />
   </a>
-
+  <a href="https://medium.com/@sandoche" target="_blank"><img src="https://badgen.net/badge/icon/medium?icon=medium&label" alt="medium: sandoche"></a>
   <a href="https://twitter.com/farbodsaraf">
     <img alt="Twitter: farbodsaraf" src="https://img.shields.io/twitter/follow/farbodsaraf.svg?style=social" target="_blank" />
   </a>
