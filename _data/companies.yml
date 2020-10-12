@@ -57,7 +57,7 @@ n26:
   name: N26
   title: Get an online bank account with a free debit card
   color: '#48AC98'
-  guide: Create an account using this invite code, spend 15 € and your referrer will receive 15 €
+  guide: Create an account using this invite code, spend 5 € and your referrer will receive 5 €
   link: /n26/
   icon: n26.svg
 transferwise:
