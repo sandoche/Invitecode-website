@@ -1,6 +1,7 @@
 all:
   - uber
   - airbnb
+  - monese
   - shine
   - n26
   - revolut
@@ -200,3 +201,10 @@ digitalocean:
   guide: Create an account using the referral link and get $100 in credit over 60 days
   link: /digitalocean/
   icon: digitalocean.svg
+monese:
+  name: Monese
+  title: Get 20 € by registering and using your card
+  color: '#3E83FF'
+  guide: Get first 5 € and then 15 € the first time you use your card
+  link: /monese/
+  icon: monese.svg

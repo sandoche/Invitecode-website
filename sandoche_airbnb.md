@@ -1,8 +1,8 @@
 ---
 layout: code
 type: code
-title: Sandoche's Airbnb promocode
-permalink: /sandoche/airbnb/
+title: Sandoche's Monese promocode
+permalink: /sandoche/monese/
 username: sandoche
-company: airbnb
+company: monese
 ---

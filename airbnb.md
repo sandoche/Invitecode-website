@@ -1,7 +1,7 @@
 ---
 layout: code
 type: code
-title: Airbnb promocodes
-permalink: /airbnb/
-company: airbnb
+title: Monese promocodes
+permalink: /monese/
+company: monese
 ---
