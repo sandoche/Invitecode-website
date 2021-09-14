@@ -29,6 +29,7 @@ sandoche:
     joinsecret: https://www.joinsecret.com/?r=4ef01fecaaba
     croissant: https://www.getcroissant.com/a/sandoche15
     qonto: https://qonto.eu/r/v3htuf
+    crypto.com:  https://crypto.com/app/sgqqhr4uvu
   codes:
     uber: f416b
     airbnb: JEIN6Vvx9N
@@ -53,10 +54,12 @@ sandoche:
     joinsecret: https://www.joinsecret.com/?r=4ef01fecaaba
     croissant: sandoche15
     qonto: https://qonto.eu/r/v3htuf
+    crypto.com:  sgqqhr4uvu
   companies:
     - uber
     - airbnb
     - n26
+    - crypto.com
     - monese
     - revolut
     - croissant

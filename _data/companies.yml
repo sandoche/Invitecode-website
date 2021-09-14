@@ -4,6 +4,7 @@ all:
   - monese
   - shine
   - n26
+  - crypto.com
   - revolut
   - booking
   - qonto
@@ -208,3 +209,10 @@ monese:
   guide: Get first 5 € and then 15 € the first time you use your card
   link: /monese/
   icon: monese.svg
+crypto.com:
+  name: Crypto.com
+  title: Receive $25 in CRO cryptocurrency
+  color: '#03316C'
+  guide: Get $25 in CRO after creating and validating your account
+  link: /crypto.com/
+  icon: crypto-com.png
