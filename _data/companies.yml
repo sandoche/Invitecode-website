@@ -2,7 +2,6 @@ all:
   - uber
   - airbnb
   - monese
-  - shine
   - n26
   - crypto.com
   - revolut
