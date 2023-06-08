@@ -10,7 +10,6 @@ sandoche:
     airbnb: https://abnb.me/e/JEIN6Vvx9N
     booking: https://www.booking.com/s/32_8/sandoc03
     monese: https://www.mone.se/7vQs/20d236e5
-    n26: https://n26.com/r/sandocha6253
     transferwise: https://transferwise.com/a/sandochea
     coinbase: https://www.coinbase.com/join/59b2af0a6d5fb6030e41f013
     binance: https://www.binance.com/?ref=11053279
@@ -28,16 +27,15 @@ sandoche:
     joinsecret: https://www.joinsecret.com/?r=4ef01fecaaba
     croissant: https://www.getcroissant.com/a/sandoche15
     qonto: https://qonto.eu/r/v3htuf
-    crypto.com:  https://crypto.com/app/sgqqhr4uvu
+    crypto.com: https://crypto.com/app/sgqqhr4uvu
   codes:
     uber: f416b
     airbnb: JEIN6Vvx9N
     booking: https://www.booking.com/s/32_8/sandoc03
     monese: SANDO941
-    n26: sandocha6253
     transferwise: sandochea
     coinbase: https://www.coinbase.com/join/59b2af0a6d5fb6030e41f013
-    binance: '11053279'
+    binance: "11053279"
     bankin: NOKQWG
     touchnote: SANDTWDTOO
     dropbox: https://db.tt/uBktYaxP
@@ -52,11 +50,10 @@ sandoche:
     joinsecret: https://www.joinsecret.com/?r=4ef01fecaaba
     croissant: sandoche15
     qonto: https://qonto.eu/r/v3htuf
-    crypto.com:  sgqqhr4uvu
+    crypto.com: sgqqhr4uvu
   companies:
     - uber
     - airbnb
-    - n26
     - crypto.com
     - monese
     - revolut
